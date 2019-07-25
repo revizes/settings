@@ -3,3 +3,5 @@ if has('gui_running')
 endif
 
 set colorcolumn=81
+
+set modeline                                                                     
