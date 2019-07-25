@@ -29,5 +29,15 @@ highlight ModeMsg guifg=black guibg=#C6C5FE gui=BOLD ctermfg=black ctermbg=cyan 
 
 
 if has('gui_running')                                                            
-    set guifont=Hermit\ Regular\ 10
+    set guifont=Hermit\ Regular\ 10                                
+        " visual mode
+        vnoremap <S-Del>        "+x
+        vnoremap <C-Insert>     "+y
+
+        " insert mode                                                            
+        inoremap <C-Insert>     "+y                                              
+        inoremap <S-Insert>     "+gP                                             
+        map <S-Insert>          "+gP                                             
+        cmap <S-Insert>         <C-R>+                                           
+endif
 endif
