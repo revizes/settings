@@ -9,3 +9,7 @@ set modeline
 set cino=g0
 
 set tags+=./tags
+
+let c_space_errors = 1                                                           
+highlight ExtraWhitespace ctermbg=red guibg=red                                  
+match ExtraWhitespace /\s\+$/  
