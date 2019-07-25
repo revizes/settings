@@ -26,3 +26,8 @@ match ExtraWhitespace /\s\+$/
 "highlight ModeMsg guifg=black guibg=#C6C5FE gui=BOLD ctermfg=red ctermbg=black cterm=BOLD
 "highlight ModeMsg ctermfg=red                                                   
 highlight ModeMsg guifg=black guibg=#C6C5FE gui=BOLD ctermfg=black ctermbg=cyan cterm=BOLD
+
+
+if has('gui_running')                                                            
+    set guifont=Hermit\ Regular\ 10
+endif
