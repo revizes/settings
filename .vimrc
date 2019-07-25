@@ -1,3 +1,12 @@
+call plug#begin('~/.vim/plugged')                                                
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }                          
+Plug 'vim-airline/vim-airline'                                                   
+Plug 'airblade/vim-gitgutter'                                                    
+Plug 'vim-scripts/taglist.vim'                                                   
+Plug 'ctrlpvim/ctrlp.vim'                                                        
+Plug 'corntrace/bufexplorer'                                                     
+call plug#end()  
+
 if has('gui_running')
     set guifont=Hermit\ Regular\ 10
 endif
