@@ -7,3 +7,5 @@ set colorcolumn=81
 set modeline                                                                     
 
 set cino=g0
+
+set tags+=./tags
