@@ -45,17 +45,24 @@ highlight ModeMsg guifg=black guibg=#C6C5FE gui=BOLD ctermfg=black ctermbg=cyan 
 
 if has('gui_running')
 	set guifont=Hermit\ Regular\ 10
-	" visual mode
-	vnoremap <S-Del>	"+x
-	vnoremap <C-Insert>	"+y
 
-	" insert mode
-	inoremap <C-Insert>	"+y
-	inoremap <S-Insert>	"+gP
+	" :map   :noremap  :unmap     Normal, Visual, Select, Operator-pending
+	" :nmap  :nnoremap :nunmap    Normal
+	" :vmap  :vnoremap :vunmap    Visual and Select
+	" :smap  :snoremap :sunmap    Select
+	" :xmap  :xnoremap :xunmap    Visual
+	" :omap  :onoremap :ounmap    Operator-pending
+	" :map!  :noremap! :unmap!    Insert and Command-line
+	" :imap  :inoremap :iunmap    Insert
+	" :lmap  :lnoremap :lunmap    Insert, Command-line, Lang-Arg
+	" :cmap  :cnoremap :cunmap    Command-line
+	" :tmap  :tnoremap :tunmap    Terminal-Job
+	
+	map <S-Del>			"+x
+	map <C-Insert>		"+y
 	map <S-Insert>		"+gP
-	cmap <S-Insert>		<C-R>+
 
-	colorscheme desert
+	" colorscheme desert
 endif
 let g:jsx_ext_required = 0
 
