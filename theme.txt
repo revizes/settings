@@ -1,9 +1,19 @@
 Flat remix gtk blue dark
 https://drasite.com/flat-remix-gtk
 
+sudo add-apt-repository ppa:daniruiz/flat-remix
+sudo apt-get update
+sudo apt-get install flat-remix-gtk
+
 아이콘
 Xenlism-Wildfire
+https://github.com/xenlism/wildfire
+
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys 2B80AC38
+sudo add-apt-repository ppa:xenatt/xenlism
+sudo apt-get update
+sudo apt-get install xenlism-wildfire-icon-theme
 
 쉘
 Material-dark
-
+sudo apt install materia-gtk-theme
