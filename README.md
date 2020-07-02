@@ -12,7 +12,7 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.c
 ##  Setting Terminator as a default terminal
 
 ```bash
-$ gsettings set org.cinnamon.desktop.default-applications.terminal exec 'terminator'
+gsettings set org.cinnamon.desktop.default-applications.terminal exec 'terminator'
 ```
 
 ## Themes
