@@ -52,3 +52,16 @@ sudo apt install flat-remix-gnome
 
 
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
+
+
+### Dell apt Repository 추가
+```bash
+$ sudo add-apt-repository 'deb http://dell.archive.canonical.com/updates bionic-dell public'
+$ sudo add-apt-repository 'deb http://dell.archive.canonical.com/updates bionic-dell-service public'
+$ sudo add-apt-repository 'deb http://dell.archive.canonical.com/updates bionic-oem public'
+```
+
+### 공개키 추가
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <PUB_KEY>
+
+
