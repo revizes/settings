@@ -65,3 +65,15 @@ $ sudo add-apt-repository 'deb http://dell.archive.canonical.com/updates bionic-
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys <PUB_KEY>
 
 
+## Coding Fonts
+[Source Code Pro](https://github.com/adobe/Source-Code-Pro)
+
+[Bitstream Vera Sans Mono](http://www.fontsquirrel.com/fonts/Bitstream-Vera-Sans-Mono)
+
+[Anonymous Pro](http://www.marksimonson.com/fonts/view/anonymous-pro)
+
+[Hermit](https://pcaro.es/p/hermit/)
+
+[Meslo](https://github.com/andreberg/Meslo-Font)
+
+[JetBrains Mono](https://www.jetbrains.com/ko-kr/lp/mono/)
