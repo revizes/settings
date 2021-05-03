@@ -49,6 +49,10 @@ sudo apt update
 sudo apt install flat-remix-gnome
 ```
 
+```bash
+sudo apt install flat-remix-gtk
+```
+
 
 
 gsettings set org.gnome.shell.extensions.dash-to-dock show-apps-at-top true
